@@ -1,0 +1,42 @@
+/* General CSS Setup
+body{
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+} */
+
+.talk-bubble {
+    margin: 3px 40px;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: lightyellow;
+}
+  
+/* talk bubble contents */
+.talktext{
+    padding: 10px;
+    text-align: left;
+}
+
+#messageBody {
+    min-height: 83vh;
+    padding-top: 10px;
+    overflow-y: auto;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.img-thumbnail {
+    padding: 0%;
+    height: 200px;
+    background-image: url('/assets/img/altImage.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
